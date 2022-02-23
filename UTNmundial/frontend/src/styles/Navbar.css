@@ -1,0 +1,105 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #F6F7F5;
+    display: flex;
+    flex-direction: row;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+  
+.navbar .izquierda {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+  
+.navbar .izquierda img {
+    width: 70px;
+}
+  
+.navbar .derecha {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.navbar a {
+    color:#d02955dc;
+    text-decoration: none;
+    margin: 20px;
+    
+}
+  
+.navbar .derecha button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: PO;
+}
+  
+.navbar .derecha svg {
+    font-size: 40px;
+}
+  
+.navbar #open {
+    padding-left: 0px;
+}
+.navbar #open img {
+    display: none;
+}
+  
+.navbar #close img {
+    display: inherit;
+}
+
+.navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+}
+  
+.navbar #close .hiddenLinks {
+    display: none;
+}
+  
+.navbar #open a {
+    width: 70px;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar .derecha a {
+      width: 70px;
+    }
+    .navbar .izquierda {
+      padding-left: 50px;
+    }
+}
+  
+@media only screen and (max-width: 600px) {
+    .navbar .derecha a {
+      display: none;
+    }
+  
+    .navbar .derecha {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .derecha button {
+      display: inherit;
+    }
+}
+  
+@media only screen and (min-width: 600px) {
+    .navbar .derecha button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+}

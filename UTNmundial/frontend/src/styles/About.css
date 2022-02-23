@@ -1,0 +1,86 @@
+.about {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+  
+.aboutTop {
+    width: 100%;
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+  
+.aboutBottom {
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    align-items: center;
+    margin-top: 50px;
+}
+  
+.aboutBottom p {
+    width: 1200px;
+}
+  
+.about .aboutBottom h1 {
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+}  
+
+.persona p  {
+    font-size: 0,8em;
+}
+
+.persona{
+    width: 18%;
+    float: left;
+    margin-left: 2.25%;
+    border: 1px solid rgb(90, 9, 43);
+    border-radius: 0.25em;
+    box-sizing: border-box;
+}
+
+.persona{
+    text-align: center;
+}
+
+.persona img {
+    border-radius: auto;
+    box-shadow: 0 0 50px;
+    margin: 0.8em 0 1em;
+}
+
+.persona h5, .persona h6 {
+    font-weight: normal;
+    color: #bd1212;
+    margin: 0;
+}
+
+.persona h5 {
+    font-size: 0.9em;
+}
+
+.persona h6{
+    font-size:0.8em;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.persona p {
+    font-size: 0.8em;
+    margin: 0 1em 1em;
+    color: rgb(75, 73, 73);
+}
+
+.persona:first-child{
+    margin-left: 0;
+}
